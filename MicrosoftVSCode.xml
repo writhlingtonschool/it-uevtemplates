@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>Visual Studio Code</Name>
+  <ID>Visual-Studio-Code-Code-v-1-22</ID>
+  <Version>6</Version>
+  <Author>
+    <Name>Daniel Wiltshire</Name>
+    <Email>dwiltshire@writhlington.org.uk</Email>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>Code.exe</Filename>
+      <ProductVersion>
+        <Major Minimum="1" Maximum="1" />
+        <Minor Minimum="22" Maximum="22" />
+      </ProductVersion>
+      <FileVersion>
+        <Major Minimum="1" Maximum="1" />
+        <Minor Minimum="22" Maximum="22" />
+      </FileVersion>
+    </Process>
+  </Processes>
+  <Settings>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path>Code\User</Path>
+      <FileMask>settings.json</FileMask>
+    </File>
+    <File>
+      <Root>
+        <EnvironmentVariable>USERPROFILE</EnvironmentVariable>
+      </Root>
+      <Path Recursive="true">.vscode\extensions</Path>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>
