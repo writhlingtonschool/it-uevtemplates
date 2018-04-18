@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>Console Emulator (x64)</Name>
+  <ID>ConEmu-ConEmu64-v-16-12</ID>
+  <Version>1</Version>
+  <Author>
+    <Name>Daniel Wiltshire</Name>
+    <Email>dwiltshire@writhlington.org.uk</Email>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>ConEmu64.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path />
+      <FileMask>ConEmu.xml</FileMask>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>
