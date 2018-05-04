@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>VMware Remote Console</Name>
+  <ID>VMware-Remote-Console-vmrc-v-10-0</ID>
+  <Version>1</Version>
+  <Author>
+    <Name>Daniel Wiltshire</Name>
+    <Email>dwiltshire@writhlington.org.uk</Email>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>vmrc.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <File>
+      <Root>
+        <EnvironmentVariable>APPDATA</EnvironmentVariable>
+      </Root>
+      <Path>VMware</Path>
+      <FileMask>preferences.ini</FileMask>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>
