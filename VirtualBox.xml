@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>VirtualBox Manager</Name>
+  <ID>Oracle-VM-VirtualBox-VirtualBox-v-5-2</ID>
+  <Version>1</Version>
+  <Author>
+    <Name>Daniel Wiltshire</Name>
+    <Email>dwiltshire@writhlington.org.uk</Email>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>VirtualBox.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <File>
+      <Root>
+        <EnvironmentVariable>USERPROFILE</EnvironmentVariable>
+      </Root>
+      <Path>.VirtualBox</Path>
+      <FileMask>VirtualBox.xml</FileMask>
+    </File>
+  </Settings>
+</SettingsLocationTemplate>
