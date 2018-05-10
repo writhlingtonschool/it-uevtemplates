@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<SettingsLocationTemplate xmlns="http://schemas.microsoft.com/UserExperienceVirtualization/2013A/SettingsLocationTemplate">
+  <Name>SSH, Telnet and Rlogin client</Name>
+  <ID>PuTTY-suite-putty-v-0-70</ID>
+  <Version>1</Version>
+  <Author>
+    <Name>Daniel Wiltshire</Name>
+    <Email>dwiltshire@writhlington.org.uk</Email>
+  </Author>
+  <Processes>
+    <Process>
+      <Filename>putty.exe</Filename>
+    </Process>
+  </Processes>
+  <Settings>
+    <Registry>
+      <Path Recursive="true">Software\SimonTatham</Path>
+    </Registry>
+  </Settings>
+</SettingsLocationTemplate>
